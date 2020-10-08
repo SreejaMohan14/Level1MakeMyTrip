@@ -39,9 +39,9 @@ public class TripPlan {
 	  wait.until(ExpectedConditions.elementToBeClickable(login));
 		Actions action =new Actions(driver);
 		action.moveToElement(login).click().build().perform();
-		driver.findElement(By.id("username")).sendKeys("sreejakm1403@gmail.com");
+		driver.findElement(By.id("username")).sendKeys("abcd1403@gmail.com");
 		driver.findElement(By.xpath("//body/div[@id='root']/div[1]/div[1]/div[1]/div[2]/div[2]/section[1]/form[1]/div[2]/button[1]")).click();
-		driver.findElement(By.id("password")).sendKeys("Bluerose@123");
+		driver.findElement(By.id("password")).sendKeys("Blueros@123");
 		driver.findElement(By.xpath("//body/div[@id='root']/div[1]/div[1]/div[1]/div[2]/div[2]/section[1]/form[1]/div[2]/button[1]")).click();
 		driver.findElement(By.xpath("//body/div[@id='root']/div[1]/div[1]/div[1]/div[2]/div[2]/section[1]/div[1]/div[1]/span[1]")).click();
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[@class='   menu_Hotels ']/a")));
