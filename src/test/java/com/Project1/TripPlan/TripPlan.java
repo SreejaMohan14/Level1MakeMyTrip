@@ -33,7 +33,7 @@ public class TripPlan {
 
 
   @Test
-  public void f() throws InterruptedException {
+  public void automate() throws InterruptedException {
 	  WebDriverWait wait = new WebDriverWait(driver,30);
 	  WebElement login = driver.findElement(By.xpath("//body/div[@id='root']/div[1]/div[1]/div[1]/div[1]/ul[1]/li[6]/div[1]"));
 	  wait.until(ExpectedConditions.elementToBeClickable(login));
